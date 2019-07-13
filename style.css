@@ -1,0 +1,776 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Karla:400i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i,400,700i');
+
+
+h1 {
+ font-family: 'Playfair Display', serif;
+ font-size: 50px;
+ text-align: center;
+ color: rgb(22, 160, 190);
+}
+
+.list-start {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  background-color: rgb(3, 99, 122);;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  min-height: 1000px;
+  margin: 0 0 !important;
+  padding: 0;
+  clear: both !important;
+  display: grid;
+}
+
+
+.btn-t {
+  color: rgb(3, 99, 122) !important;
+  font-family: 'PT Sans', sans-serif !important;
+  font-weight: bold !important;
+  padding: 10px 30px !important;
+  font-weight: bold;
+  font-size: 19px !important;
+  display: block !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: 60px !important;
+}
+
+button:focus {
+  outline: 5px auto rgb(3, 99, 122) !important;
+}
+
+button {
+  outline: 5px auto rgb(255, 255, 255) !important;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+  margin-top: 70px !important;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.bg-1 {
+  /*background-color: rgb(22, 160, 190) !important;*/
+  background-color: rgb(3, 99, 122);
+}
+
+
+.bg-1 ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+
+.bg-1 li {
+  color: rgb(250, 255, 255) !important;
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 15px;
+  display: grid;
+}
+
+.bg-1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.image-cropper {
+  width: 295px;
+  height: 180px;
+  clip-path: circle(80px at 160px);
+  display: block;
+  margin: 10px auto 10px;
+  display: block;
+  text-align: center;
+}
+
+.img-1 {
+  height: 100%;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+}
+
+.bg-2 {
+  width: 100%;
+}
+
+.bg-2 .info-content-2 p:nth-child(2) {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  margin-left: 25px;
+  font-size: 70px;
+  margin-top: 270px;
+}
+
+.bg-2 .info-content-2 p:nth-child(3) {
+  margin-left: 25px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 120px;
+  color: white;
+  margin-top: -50px;
+}
+
+.bg-2 .info-content-2 p:nth-child(4) {
+  color: white;
+  margin-left: 25px;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.info-content-1 {
+  top: 53px;
+  position: -webkit-sticky;
+}
+
+.info-content-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("images/gaddafi-rusli-399027-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10%;
+  display: inline-block !important;
+  min-width: 100%;
+  padding-bottom: 360px;
+}
+
+.col, .col-lg-3, .col-lg-8, .col-xl-9 { 
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+
+}
+ 
+.box {
+  display: block;
+
+}
+
+.container .box h2 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.container .box .chart {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 42px;
+  line-height: 180px;
+  color: #fff;
+}
+
+.container .box canvas {
+  position: absolute;
+  top: 0;
+  left: -5;
+}
+
+.info-content-2::before {
+  margin: 0;
+  padding: 0;
+}
+
+.content h3 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(3, 99, 122);
+}
+.topics {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.topics:hover {
+  background-color: white;
+  color: rgb(3, 99, 122);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 2%;
+  
+}
+
+.about {
+  background-color: rgb(234, 247, 249);
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about div {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 530px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(96,96,96);
+  font-size: 23px;
+}
+
+.name {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 55px;
+}
+
+.skills {
+  background-color: rgb(234, 247, 249);
+  overflow: hidden;
+  width: 100%;
+}
+
+.skill-content {
+  margin-top: 80px !important;
+}
+
+.footer-2 {
+  background-color: rgb(3, 99, 122) !important;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer-2 h4 {
+  margin-bottom: 0px !important;
+  color: rgb(250, 255, 255);
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+/*Pictures*/
+
+
+
+.wrap {
+  position: relative;
+  width: 384px;
+  height: 256px;
+  display: inline-block; 
+}
+
+.image {
+  display: block !important;
+  width: 384px;
+  height: 256px;
+}
+
+.overlay {
+  position: absolute;
+  transition: all 1s ease;
+  opacity: 0;
+  background-color: #eee;
+}
+
+.wrap:hover .overlay {
+  opacity: .9;
+}
+
+.text {
+  color: rgb(250, 255, 255);
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.overlayLeft {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  background-color: rgb(22, 160, 190);
+}
+
+.wrap:hover .overlayLeft {
+  width: 100%;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  margin: 50px auto;
+  padding: 40px 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(250, 255, 255);
+}
+
+.timeline:before {
+  content:'';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 85%;
+  background: rgb(22, 160, 190);
+  margin-top: 100px;
+}
+
+.timeline .un-l {
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.timeline .un-l .element {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline .un-l .element:nth-child(odd) {
+  float: left;
+  clear: both;
+  text-align: left;
+  list-style-position: outside;
+}
+
+.timeline .un-l .element:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.content {
+  padding-bottom: 20px;
+  border: 2px solid rgb(22, 160, 190);
+  background-color: rgb(250, 255, 255);
+  border-radius: 5%;
+  padding: 10px;
+}
+.content p:first-of-type {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(22, 160, 190);
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+.timeline .un-l .element:nth-child(odd):before {
+  content:'';
+  position: absolute;
+  top: 24px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgb(22, 160, 190);
+}
+
+
+.timeline .un-l .element:nth-child(even):before {
+  content:'';
+  position: absolute;
+  top: 24px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgb(22, 160, 190);
+}
+
+.desc {
+  text-align: left;
+  list-style: disc;
+  list-style-position: inside;
+  color: rgb(22, 160, 190);
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.timeline .un-l .element h2 {
+  font-family: 'Playfair Display', serif;;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgb(3, 99, 122);
+}
+
+.timeline .un-l .element p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.timeline .un-l .element .time h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-size: 20px;
+}
+
+.timeline .un-l .element:nth-child(odd) .time {
+  position: absolute;
+  font-weight: bold;
+  top: 15px;
+  right: -260px;
+  margin: 0;
+  padding: 5px 30px;
+  background: rgb(22, 160, 190);
+  color: #fff;
+  border-radius: 18px;
+}
+
+.timeline .un-l .element:nth-child(even) .time {
+  position: absolute;
+  top: 15px;
+  left: -260px;
+  margin: 0;
+  padding: 6px 30px;
+  background: rgb(22, 160, 190);
+  color: #fff;
+  border-radius: 18px;
+}
+
+.clrbox {
+  clear: both;
+}
+
+@media (max-width: 1000px) {
+  .timeline {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline {
+    width: 100%;
+    top: 20px;
+  }
+  .timeline:before {
+    left: 20px;
+    top: -4px;
+  }
+  .timeline .un-l .element:nth-child(odd),
+  .timeline .un-l .element:nth-child(even) {
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+  .desc {
+    text-align: left;
+    list-style-position: inside;
+  }
+  .timeline .un-l .element:nth-child(odd):before,
+  .timeline .un-l .element:nth-child(even):before {
+    top: -18px;
+    left: 16px;
+  }
+  .timeline .un-l .element:nth-child(odd) .time,
+  .timeline .un-l .element:nth-child(even) .time {
+    top: -30px;
+    left: 50px;
+    right: inherit;
+  }
+
+  .skill-content {
+    display: block;
+    text-align: center;
+  }
+
+  .barchart-1, .barchart-2 {
+    display: block !important;
+    float: none !important;
+    justify-content: center !important
+  }
+
+
+ 
+}
+
+/*barchart*/
+.container-b {
+  width: auto;
+  margin: 5px auto 0;
+  padding: 20px;
+}
+
+.barchart-1, .barchart-2 {
+  width: 500px;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container-b .barchart li {
+  position: relative;
+  list-style: none;
+  margin: 50px 0;
+  font-weight: 500;
+}
+
+
+.container-b .barchart li:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background-color: rgb(22, 160, 190, .2);
+}
+
+.container-b .barchart-1 li:nth-child(1):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left:0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.container-b .barchart-1 li:nth-child(2):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.container-b .barchart-1 li:nth-child(3):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.container-b .barchart-1 li:nth-child(4):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.container-b .barchart-2 li:nth-child(1):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.container-b .barchart-2 li:nth-child(2):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.container-b .barchart-2 li:nth-child(3):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.container-b .barchart-2 li:nth-child(4):after {
+  content: "";
+  white-space: pre;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: rgba(22, 160, 190, 1);
+  color: #fff;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+li.plg:after {
+  animation-name: plg;
+}
+
+@keyframes plg {
+  to {
+      width: 95%;
+  }
+}
+
+li.is:after {
+  animation-name: is;
+}
+
+@keyframes is {
+  to {
+      width: 83%;
+  }
+}
+
+li.fs:after {
+  animation-name: fs;
+}
+
+@keyframes fs {
+  to {
+      width: 70%;
+  }
+}
+
+li.dln:after {
+  animation-name: dln;
+}
+
+@keyframes dln {
+  to {
+      width: 92%;
+  }
+}
+
+li.sdt:after {
+  animation-name: sdt;
+}
+
+@keyframes sdt {
+  to {
+      width: 97%;
+  }
+}
+
+li.tsk:after {
+  animation-name: tsk;
+}
+
+@keyframes tsk {
+  to {
+      width: 80%;
+  }
+}
+
+li.mrktn:after {
+  animation-name: mrktn;
+}
+
+@keyframes mrktn {
+  to {
+      width: 90%;
+  }
+}
+
+li.cmt:after {
+  animation-name: cmt;
+}
+
+@keyframes cmt {
+  to {
+      width: 94%;
+  }
+}
+
+li.rus:after {
+  animation-name: rus;
+}
+
+@keyframes rus {
+  to {
+      width: 94%;
+  }
+}
+
+li.eng:after {
+  animation-name: eng;
+}
+
+@keyframes eng {
+  to {
+      width: 70%;
+  }
+}
+
